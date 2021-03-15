@@ -4,7 +4,7 @@ const app = express();
 const connectDB = require('./config/db')
 const path = require('path')
 
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 3000;
 connectDB();
 
 //telmplate engines
